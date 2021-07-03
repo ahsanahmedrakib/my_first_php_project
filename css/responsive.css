@@ -1,0 +1,377 @@
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		#portfolio-list img {
+			width:90%;
+		}
+		ul#portfolio-list li {
+   			 width: 25%;
+		}
+		#banner p {
+			margin:100px 0 0;
+		}
+		btn {
+			width:300px;
+		}
+		#banner {
+   			padding: 10px 0 115px;
+		}
+		#team figure img{
+			width:100%;
+		}
+		#team figure h4 {
+			font-size: 24px;
+			line-height: 24px;
+		}
+		.social a{
+			line-height:28px;
+		}
+		footer ul li {
+			margin: 0 5px;
+		}
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#banner p {
+   			margin:25px;
+			font-size: 32px;
+    		line-height: 40px;
+			padding: 150px 0 50px;
+		}
+		#banner {
+    		padding: 10px 0 100px;
+		}
+		#service {
+   			 padding: 50px 0;
+		}
+		#team {
+			padding:50px 0;
+		}
+		#team figure img{
+			width:100%;
+		}
+		#team figure h4 {
+			font-size: 19px;
+			line-height: 22px;
+		}
+		#skill {
+			padding:50px 0;
+		}
+		.loader{
+			width:180px !important;
+			height:180px !important;
+		}
+		.loader1{
+			width:180px !important;
+			height:180px !important;
+		}
+		.loader2{
+			width:180px !important;
+			height:180px !important;
+		}
+		.loader3{
+			width:180px !important;
+			height:180px !important;
+		}
+		#portfolio {
+			padding:50px 0;
+		}
+		#portfolio-list img {
+			width:90%;
+		}
+		ul#portfolio-list li {
+   			 width: 25%;
+		}
+		ul#portfolio-list p {
+			font-size: 16px;
+			line-height: 20px;
+		}
+		#about {
+			padding:50px 0 10px;
+		}
+		#contact {
+			padding:50px 0;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+    		padding: 20px 0 5px;
+		}
+		header.sticky {
+			    padding: 10px 0 5px !important;
+		}
+		#banner p {
+			margin:10px;
+			font-size: 28px;
+    		line-height: 30px;
+			padding: 130px 0 39px;
+		}
+		#banner {
+    		padding: 10px 0 50px;
+		}
+		.btn {
+			font-size: 16px;
+			padding: 15px 44px;
+			width: 230px;
+		}
+		#service {
+			padding:50px 0;
+		}
+		#service h2 {
+			font-size: 30px;
+			line-height: 70px;
+		}
+		#service p {
+			margin: 10px 0 30px;
+			width:100%;
+		}
+		#service figure {
+			margin-bottom:20px;
+		}
+		#team {
+			padding:50px 0;
+		}
+		#team h2 {
+			font-size:30px;
+			line-height:70px;
+		}
+		#team p {
+			margin: 10px 0 30px;
+			width:100%;
+		}
+		#team figure{
+			margin-bottom:20px;
+		}
+		#skill {
+			padding:50px 0;
+		}
+		#skill h2 {
+			font-size:30px;
+			line-height:70px;
+		}
+		#skill p {
+			margin: 10px 0 30px;
+			width:100%;
+		}
+		#skill span {
+			margin-bottom:30px;
+		}
+		#portfolio {
+			padding:50px 0;
+		}
+		#portfolio p {
+			margin: 10px 0 30px;
+			width:100%;
+		}
+		#portfolio h2 {
+			font-size:30px;
+			line-height:70px;
+		}
+		ul#portfolio-filter{
+			padding-left:0px;
+		}
+		ul#portfolio-list li {
+    		width: 100%;
+			margin-bottom:10px;
+		}
+		#portfolio-list img {
+			width:80%;
+		}
+		ul#portfolio-list {
+			    margin: 40px 0 0 0;
+		}
+		.btn1 {
+			font-size: 16px;
+			padding: 15px 44px;
+			width: 260px;
+		}
+		#about {
+			padding:50px 0 0;
+		}
+		#about h2 {
+			font-size:28px;
+			line-height:70px;
+		}
+		#about p {
+			margin: 10px 0 30px;
+			width:100%;
+		}
+		.testimonial {
+ 		   margin-bottom: 40px;
+		}
+		#about blockquote {
+			font-size: 18px;
+			line-height: 26px;
+		}
+		#contact {
+			padding:50px 0;
+		}
+		#contact h2 {
+			font-size:28px;
+			line-height:70px;
+		}
+		#contact p {
+			margin: 15px auto 50px;
+		}
+		.spacing {
+ 		   margin: 10px;
+		}
+		.btn11 {
+			font-size: 16px;
+			padding: 15px 44px;
+			width: 240px;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#service {
+			padding:30px 0;
+		}
+		#service h2 {
+			font-size: 20px;
+			line-height: 40px;
+		}
+		#service p {
+			margin: 15px 0 30px;
+			width: 100%;
+			font-size:16px;
+			line-height:24px;
+		}
+		#team {
+   		 padding: 30px 0;
+		}
+		#team h2 {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		#team .bottomline {
+			margin-top:10px;
+		}
+		#team p {
+			margin: 15px 0 30px;
+			width: 100%;
+			font-size:16px;
+			line-height:24px;
+		}
+		#skill {
+			padding:30px 0;
+		}
+		#skill h2 {
+			font-size: 20px;
+			line-height: 40px;
+		}
+		#skill p {
+			margin: 15px 0 30px;
+			width: 100%;
+			font-size:16px;
+			line-height:24px;
+		}
+		#portfolio {
+			padding:30px 0;
+		}
+		#portfolio h2 {
+			font-size: 20px;
+			line-height: 40px;
+		}
+		#portfolio p {
+			margin: 15px 0 30px;
+			width: 100%;
+			font-size:16px;
+			line-height:24px;
+		}
+		ul#portfolio-filter a {
+			padding: 5px 10px;
+			margin-right:3px;
+		}
+		.btn1 {
+           font-size: 15px;
+           padding: 15px 20px;
+          width: 200px;
+       }
+	   #about {
+		   padding:30px 0;
+	   }
+	   #about p {
+			margin: 15px 0 30px;
+			width: 100%;
+			font-size:16px;
+			line-height:24px;
+		}
+		#about h2 {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		#about .bottomline {
+			margin-top:10px;
+		}
+		#about blockquote {
+			font-size: 16px;
+			line-height: 24px;
+		}
+		#about span {
+			font-size: 20px;
+			line-height: 24px;
+		}
+		#about span.smalltest {
+			font-size: 16px;
+			line-height: 24px;
+		}
+		.testimage img{
+			width:90%;
+		}
+		#contact {
+			padding:30px 0;
+		}
+		#contact h2 {
+			font-size: 20px;
+			line-height: 40px;
+		}
+		#contact p {
+			margin: 15px 0 30px;
+			width: 100%;
+			font-size:16px;
+			line-height:24px;
+		}
+		.name {
+			
+			width:100%;
+			float:none;
+			margin-bottom:10px;
+		}
+		.email {
+			width:100%;
+			float:none;
+		}
+		#contact textarea {
+    		width: 93.5%;
+			margin-top:10px;
+		}
+		.btn11 {
+			font-size: 16px;
+			padding: 15px 27px;
+			width: 200px;
+		}
+		footer ul li {
+			display:block;
+			margin:10px 0;
+		}
+		footer{
+			padding:30px 0;
+			font-size:16px;
+			line-height:24px;
+		}
+		.spacing {
+ 			   margin: 0px;
+		}
+

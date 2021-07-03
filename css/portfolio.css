@@ -1,0 +1,29 @@
+/* @override http://newmediacampaigns.com/css/compiled.css */
+
+
+
+a{ color: #000; }
+a:hover, a:active{ text-decoration: none; }
+a img{ border: none; }
+
+
+
+/* Content - Portfolio Listing */
+
+ul#portfolio-filter{padding: 0; height: 64px; padding-left: 70px; line-height: 64px; }
+ul#portfolio-filter li{ display: inline; }
+ul#portfolio-filter a{ margin-right: 0.5em; padding: 5px 20px; background: #ebc985; border-radius:5px; color:#393939; font-size:18px; line-height:20px; }
+ul#portfolio-filter a:hover, ul#portfolio-filter a.current{ color: #888; }
+ul#portfolio-filter a.current{ background-color: #fff; }
+
+ul#portfolio-list{ margin: 60px 0 0 0; padding: 0; list-style: none; }
+ul#portfolio-list li{ width: 50%; height: auto; display: block; float: left; overflow: hidden; }
+ul#portfolio-list li a{ display: block; width: 100%; height: auto; overflow: hidden; }
+
+
+ul#portfolio-list p{
+	font-size:18px;
+	line-height:20px;
+	color:#393939;
+	text-transform:uppercase;
+}
